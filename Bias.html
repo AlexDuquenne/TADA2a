@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://i.icomoon.io/public/temp/3160f7e969/UntitledProject/style-svg.css"
+    />
+    <script
+      defer
+      src="https://i.icomoon.io/public/temp/3160f7e969/UntitledProject/svgxuse.js"
+    ></script>
+  </head>
+
+  <body class="bodyOverOns">
+    <header>
+      <a href="./index.html">
+        <img src="./imgs/logoTada.png" alt="" />
+      </a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a class="active" href="./Bias.html">Unconscious bias</a></li>
+          <li><a href="./OverOns.html">Over Tada</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="mainBias">
+      <ul class="arrows">
+        <li>
+          <a href="#" onclick="toggle('bias2')">
+            <img src="./imgs/icons/arrowLeft.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#" onclick="toggle('bias2')">
+            <img src="./imgs/icons/arrowRight.png" alt="" />
+          </a>
+        </li>
+      </ul>
+
+      <section class="section-bias" id="bias2">
+        <div class="textEnImg">
+          <div class="mainText">
+            <div>
+              <h2>Getuigenis</h2>
+              <p>
+                “Ik ben gothic, ik heb een heel donkere stijl en ik hou van
+                kinderen. Ik werk peuter juffrouw op een basisschool in
+                Anderlecht. Veel ouders zijn gaan klagen bij mijn baas. Ze
+                denken dat ik door mijn look een slechte invloed heb op hun
+                kinderen,” zegt Sophie Segers, kleuterjuffrouw in Gemeentelijke
+                Basisschool Veeweide Anderlecht. “Het is niet aangenaam om
+                telkens klachten te krijgen van ouders, maar zien dat de
+                kinderen nieuwsgierig zijn en mij accepteren geeft mij de moed
+                om verder te doen”.
+              </p>
+            </div>
+            <div>
+              <h2>Getuigenis</h2>
+              <p>
+                "Ik heb stereotypering ervaren als een mannelijke verpleegster.
+                Patiënten hebben me verteld dat ze niet willen dat ik hun
+                verpleegster ben," zegt Carl A. Brown, directeur van
+                patiëntenzorg in Sun City, Californië. "Ik denk dat het
+                belangrijk is dat mensen weten dat mijn geslacht me er niet van
+                weerhoudt om kwaliteitszorg te bieden aan elk van mijn
+                cliënten."
+              </p>
+            </div>
+          </div>
+          <img class="mainImg" src="./imgs/uncontious.png" alt="" />
+        </div>
+      </section>
+
+      <section class="section-bias" id="bias1">
+        <div class="textEnImg">
+          <div class="mainText">
+            <div>
+              <h2>Wat is unconscious bias?</h2>
+              <p>
+                Unconscious bias zijn sociale stereotypen die mensen onbewust
+                hebben over bepaalde dingen, personen of groepen, op een manier
+                die vaak als oneerlijk beschouwd wordt. Biases zijn niet enkel
+                gelimiteerd tot etniciteit en ras, het betrekt elke sociale
+                groep, zoals leeftijd, geslacht, geslachtsidentiteit,
+                sexualiteit, religie, functiebeperking, etc,... Voor meer
+                informatie, klik
+                <a href="https://diversity.ucsf.edu/resources/unconscious-bias"
+                  >hier</a
+                >.
+              </p>
+            </div>
+            <div>
+              <h2>Hoe voorkom je het?</h2>
+              <p>
+                Het beste dat je kan doen om unconscious bias te vermijden is om
+                te beseffen dat het er is. Zoek op welke soort biases er het
+                meest waarschijnlijk zijn om je te beïnvloeden en welke er
+                toepasbaar zijn op je omgeving. Heb een moderne visie op de
+                wereld en omarm diversiteit.
+              </p>
+            </div>
+          </div>
+          <img class="mainImg" src="./imgs/uncontious.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <div class="witteBalk">
+      <ul>
+        <li>
+          <a
+            href="https://tada.brussels/word-vrijwilliger-bij-tada/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./imgs/icons/greenZandloper.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://tada.brussels/doneer/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./imgs/icons/greenBilliet.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <div class="social">
+        <a href="https://www.facebook.com/ToekomstATELIERdelAvenir/"
+          ><img src="./imgs/icons/facebook.png" alt="" height="50px" /><a
+            href=""
+          ></a
+        ></a>
+        <a href="https://www.instagram.com/tada.brussels/?hl=en">
+          <img src="./imgs/icons/instagram.png" alt="" height="50px" /><a
+            href=""
+          ></a
+        ></a>
+        <a href="https://twitter.com/tada_brussels">
+          <img src="./imgs/icons/twitter.png" alt="" height="50px" /><a
+            href=""
+          ></a
+        ></a>
+        <a href="https://www.youtube.com/user/ToekomstATELIER">
+          <img src="./imgs/icons/youtube.png" alt="" height="50px" /><a
+            href=""
+          ></a
+        ></a>
+      </div>
+    </footer>
+  </body>
+  <script>
+    function toggle(id) {
+      toggle_visibility(id);
+      if (id == "bias1") {
+        toggle_visibility("bias2");
+      } else {
+        toggle_visibility("bias1");
+      }
+    }
+    function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if (e.style.display == "block") e.style.display = "none";
+      else e.style.display = "block";
+    }
+    toggle_visibility("bias1");
+  </script>
+</html>
